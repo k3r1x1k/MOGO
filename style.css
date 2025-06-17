@@ -16,6 +16,22 @@ body {
     background-color: var(--background-color);
 }
 
+header{
+    padding-top: 16px;
+}
+
+.header_list{
+    display: flex;
+    gap: 55px; 
+}
+
+.header_flex{
+    display: flex;
+   flex-direction: row;
+   align-items: center; 
+   justify-content: space-between;
+}
+
 .container {
     width: 1230px;
     padding: 0 15px;
